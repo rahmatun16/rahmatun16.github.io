@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mini Project RevoU</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Welcome to Katik</h1>
+    </header>
+    <br>
+    <main>
+        <p>
+            Hai Sobat, Selamat Datang di Katik :) <br> Sebuah web apps sederhana yang berfungsi untuk menghitung nilai
+            keliling dan luas segitiga
+        </p>
+        <div class="container1">
+            <h2 class="judul">LUAS SEGITIGA</h2>
+            <img src="asset/luas.jpg" alt="">
+            <br>
+            <h2>HITUNG LUAS SEGITIGA</h2>
+        </div>
+
+
+        <div class="container">
+            <div class="form-group">
+                <label for="sisiA">Alas :</label>
+                <input type="text" id="alas" class="form-control" placeholder="Masukkan nilai alas">
+            </div>
+            <div class="form-group">
+                <label for="sisiA">Tinggi :</label>
+                <input type="text" id="tinggi" class="form-control" placeholder="Masukkan nilai tinggi">
+            </div>
+
+            <button type="button" class="btn btn-primary" onclick="hitungLuasSegitiga()">Hitung</button>
+            <button type="button" class="btn btn-secondary" onclick="reset()">Reset</button>
+
+            <div class="hasil">
+                <p id="hasilLuas"></p>
+
+            </div>
+        </div>
+
+        <br>
+        <hr>
+
+        <div class="container1">
+            <h2 class="judul">KELILING SEGITIGA</h2>
+            <img src="asset/keliling.jpg" alt="">
+            <h2>HITUNG KELILING SEGITIGA</h2>
+        </div>
+
+        <div class="container">
+            <div class="form-group">
+                <label for="sisiA">Sisi1 :</label>
+                <input type="text" id="sisiA" class="form-control" placeholder="Masukkan nilai sisi">
+            </div>
+            <div class="form-group">
+                <label for="sisiB">Sisi2 :</label>
+                <input type="text" id="sisiB" class="form-control" placeholder="Masukkan nilai sisi">
+            </div>
+            <div class="form-group">
+                <label for="sisiC">Sisi3 :</label>
+                <input type="text" id="sisiC" class="form-control" placeholder="Masukkan nilai sisi">
+            </div>
+
+            <button type="button" class="btn btn-primary" onclick="hitungKelilingSegitiga()">Hitung</button>
+            <button type="button" class="btn btn-secondary" onclick="reset()">Reset</button>
+            <div class="hasil">
+                <p id="hasilKeliling"></p>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <h2>Created by</h2>
+                <p>Andika Kurnia Rahman</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>

@@ -1,0 +1,130 @@
+body {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+header {
+    background-image: linear-gradient(
+        85deg,
+        #fbdb82 0,
+        #efde82 6.25%,
+        #e1de83 12.5%,
+        #d0dc84 18.75%,
+        #bed885 25%,
+        #abd186 31.25%,
+        #98c786 37.5%,
+        #85bb85 43.75%,
+        #73ad82 50%,
+        #639e7e 56.25%,
+        #57927a 62.5%,
+        #4d8777 68.75%,
+        #467e74 75%,
+        #417872 81.25%,
+        #3e7371 87.5%,
+        #3c7072 93.75%,
+        #3c6e75 100%
+    );
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 50px;
+    align-items: center; 
+    justify-content: center; 
+}
+
+main {
+    padding: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+}
+
+.judul {
+    background-color: rgb(196, 212, 167);
+    text-align: center;
+    margin-top: 2px;
+}
+
+img {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.container, .container1 {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    height: 100%;
+    width: 350px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border-color: black;
+}
+
+input:focus {
+    background-color: rgb(196, 212, 167);
+    border-color: rgb(196, 212, 167);
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+.btn {
+    margin-top: 10px;
+    background-color: rgb(196, 212, 167);
+    border-radius: 15px;
+}
+
+
+.hasil {
+    margin-top: 20px;
+}
+
+
+footer {
+    padding: 30px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 8px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    float: left;
+}
+
+.btn-secondary {
+    float: right;
+}
